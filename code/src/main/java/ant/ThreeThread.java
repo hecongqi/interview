@@ -1,6 +1,9 @@
+package ant;
+
 import java.util.concurrent.CountDownLatch;
 
 /**
+ * 数字马力面试题
  * 三个线程t1、t2、t3，
  * t1打印test1，t2打印test2，t3打印test3，
  * 要求按顺序输出test1test2test3，test1test2test3……总共输出10次
